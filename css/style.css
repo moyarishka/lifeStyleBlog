@@ -1,0 +1,840 @@
+body {
+	background: #f7f7f7;
+	font-size: 13px;
+	color: #313131;
+	font-family: 'Raleway', sans-serif;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4 {
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 24px;
+}
+
+h1 {
+	font-size: 22px;
+	margin-bottom: 30px;
+	margin-top: 60px;
+}
+
+h2 {
+	font-size: 17px;
+}
+
+h3 {
+	font-size: 13px;
+}
+
+h4 {
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #313131;
+}
+
+/*---------------------------------------ПОДСВЕТКА ССЫЛКОК------------------------*/
+
+a:hover i,
+.top-menu ul li a:hover,
+.submit-button:hover,
+.main-gallery .gallery-buttons a:hover,
+.share-button:hover .fa-share-alt,
+.instagram-button a:hover h4,
+.continue-button:hover,
+.footer .container .up-button-container .up-button:hover i,
+.subscribe-button:hover,
+.sidebar .categories li a:hover,
+.sidebar .popular-posts li a:hover .description h3 {
+	color: #ffb79b;
+}
+
+.more-button:hover {
+	color: white;
+	background: #ffb79b;
+}
+
+.continue-button:hover,
+.share-button:hover .fa-share-alt,
+.footer .container .up-button-container .up-button:hover,
+.subscribe-button:hover {
+	background: white;
+	border: 1px solid #eaeaeb;
+	box-sizing: border-box;
+}
+
+.fa-camera:hover,
+.instagram-button:hover {
+	background: white;
+	box-sizing: border-box;
+}
+
+.instagram-button:hover {
+	border: 1px solid #eaeaeb;
+}
+
+.gallery-button:hover {
+	background: #ffb79b;
+	opacity: 0.8;
+	box-sizing: border-box;
+}
+
+.gallery-button:hover i {
+	color: white;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.style-box {
+	background: #ffffff;
+	box-shadow: 1px 1px 1px #ececec;
+	margin-bottom: 25px;
+	padding: 27px 19px 40px 19px;
+}
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/*------------------------------------------------------------------------*/
+
+/*------------------------------СЕРАЯ ЛИНИЯ-------------------------------*/
+.main-content p::before {
+	display: block;
+	content: '';
+	height: 1px;
+	width: 100%;
+	background: #eaeaeb;
+	margin-bottom: 31px;
+}
+
+.footer .footer-article::before {
+	content: '';
+	display: block;
+	height: 0px;
+	width: 100%;
+	background: #eaeaeb;
+	margin-bottom: 31px;
+}
+
+.footer .footer-article::after {
+	display: block;
+	content: '';
+	height: 1px;
+	width: 100%;
+	margin-bottom: 31px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #eaeaeb;
+}
+
+.main-content .line,
+.sidebar .line,
+.footer .line {
+	width: 100%;
+	height: 25px;
+	border-bottom: 1px solid #eaeaeb;
+	margin-bottom: 30px;
+}
+
+/*-------------------------------ОРАНЖЕВАЯ ЛИНИЯ-------------------------*/
+.main-gallery .gallery-buttons h3 {
+	border-bottom: 2px solid #ffb79b;
+	padding-right: 40px;
+	margin-bottom: -1px;
+}
+
+.main-content h1::after,
+.main-content .content>h4::after {
+	height: 2px;
+	display: block;
+	background: #ffb79b;
+	width: 30%;
+	content: '';
+	margin-bottom: -1px;
+	position: relative;
+	z-index: 10;
+}
+
+.main-content .column-container .column-half .content>h4::after {
+	height: 2px;
+	display: block;
+	background: #ffb79b;
+	width: 50%;
+	content: '';
+	margin-bottom: -1px;
+	position: relative;
+	z-index: 10;
+}
+
+.sidebar h1::after,
+.sidebar h2::after,
+.footer h2::after {
+	height: 2px;
+	display: block;
+	background: #ffb79b;
+	width: 50%;
+	content: '';
+	position: relative;
+	z-index: 10;
+	margin-bottom: -1px;
+}
+
+/*-----------------------------------------------------------------------*/
+
+.topline {
+	height: 50px;
+	border-bottom: 1px solid #cecece;
+	box-shadow: 0 1px 5px #cecece;
+}
+
+.topline .container {
+	height: 50px;
+	text-align: center;
+}
+
+.topline .search-button,
+.topline .submit-button {
+	display: block;
+	height: 50px;
+	border-right: 1px solid #eaeaeb;
+	vertical-align: middle;
+	line-height: 50px;
+	float: left;
+
+}
+
+.topline .search-button {
+	border-left: 1px solid #eaeaeb;
+	width: 38px;
+}
+
+.topline .search-button .fa-search {
+	font-size: 16px;
+}
+
+.topline .submit-button {
+	width: 124px;
+	text-align: center;
+}
+
+.top-menu {
+	display: inline-block;
+	height: 50px;
+}
+
+.top-menu li {
+	display: block;
+	float: left;
+	margin: 0 20px;
+
+}
+
+.topline h4 {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	display: inline-block;
+}
+
+.logo {
+	text-align: center;
+	margin: 50px 0;
+}
+
+.logo .caption{
+	font-size: 80px;
+	font-family: 'Tangerine', cursive;
+	line-height: 80px;
+}
+
+.logo .motto {
+	color: #ffb79b;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-top: 8px;
+	font-weight: bold;
+}
+
+.logo .motto::before,
+.logo .motto::after {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 5%;
+	background: #252536;
+	height: 2px;
+	margin: 0 10px;
+
+}
+
+.main-gallery .gallery-buttons::after {
+	content: '';
+	width: 100%;
+	display: inline-block;
+}
+
+.main-gallery .gallery-buttons {
+	text-align: justify;
+	border-bottom: 1px solid #eaeaeb;
+	margin-bottom: 30px;
+	height: 25px;
+
+}
+
+.main-gallery .gallery-buttons a {
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.main-gallery,
+.main-gallery .main-gallery-img
+.main-gallery .main-gallery-img img {
+	max-width: 100%;
+}
+
+.main-gallery .main-gallery-img {
+	position: relative;
+  	z-index: 1;
+  	overflow: hidden;
+}
+
+.gallery-item {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+}
+
+.gallery-item.collapsed {
+  width: 10%;
+  cursor: pointer;
+}
+
+.gallery-item.collapsed img {
+  max-width: none;
+  width: 800%;
+  margin-left: -350%;
+}
+
+.collapsed .overlay {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #eee;
+  opacity: 0.85;
+}
+
+.collapsed:hover {
+  z-index: 1;
+  box-shadow: 0 0 7px black;
+}
+
+.collapsed:hover .overlay {
+  opacity: 0.5;
+}
+
+.gallery-item.expanded {
+  width: 80%;
+}
+
+/*-------------------------------КНОПКИ МАЛЕНЬКОЙ ГАЛЛЕРЕЙ---------------------*/
+
+.gallery-button,
+.instagram-button {
+	display: block;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	text-align: center;
+}
+
+.gallery-button {
+	background: white;
+}
+
+
+.fa-angle-right,
+.fa-angle-left {
+	color: #ffb79b;
+}
+
+.small-gallery .gallery-button {
+	height: 100%;
+	width: 36px;
+	opacity: 0.8;
+}
+
+.small-gallery .fa-angle-left,
+.small-gallery .fa-angle-right {
+//	line-height: 200px;
+	font-weight: bold;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	height: 20px;
+	width: 100%;
+	margin-top: -10px;
+}
+
+.instagram-button {
+	height: 30px;
+//	width: 138px;
+	left: 45%;
+	background: #ffb79b;
+	top: -15px;
+	padding: 0 10px;
+}
+
+.instagram-button h4 {
+	color: white;
+	line-height: 30px;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+.small-gallery img {
+	display: block;
+	float: left;
+	width: 25%;
+	height: 200px;
+}
+
+.small-gallery {
+	position: relative;
+	height: 200px;
+	overflow: hidden;
+}
+
+.small-gallery .gallery-item,
+.sidebar-gallery .gallery-item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+/*------------------------------------SIDEBAR----------------------------------------*/
+.sidebar {
+	float: right;
+	width: 270px;
+}
+
+.sidebar .style-box {
+	padding-bottom: 12px;
+}
+
+.sidebar .search input {
+	border: none;
+	outline: none;
+	display: block;
+	width: 100%;
+	background: url(../search.png) no-repeat 95% center;
+	height: 50px;
+	padding: 0 26px 0 10px;
+	box-sizing: border-box;
+
+}
+
+.sidebar .search {
+	padding: 0;
+}
+
+.sidebar .popular-posts li,
+.sidebar .categories li {
+	display: block;
+	margin-top: 16px;
+	padding-bottom: 16px;
+	border-bottom: solid 1px #eaeaeb;
+}
+
+.sidebar .popular-posts li:last-child,
+.sidebar .categories li:last-child {
+	border: none;
+}
+
+
+.sidebar .categories a {
+	text-transform: uppercase;
+}
+
+.sidebar .popular-posts img {
+	display: block;
+	width: 30%;
+//	height: 50px;
+	float: left;
+}
+
+.sidebar h2 {
+	margin-bottom: 30px;
+}
+
+.sidebar .description {
+	margin-left: 80px;
+}
+
+.sidebar .social-media-box,
+.sidebar .instagram-gallery,
+.sidebar .sidebar-gallery {
+	padding-bottom: 28px;
+}
+
+.sidebar .instagram-gallery {
+	padding-right: 17px;
+}
+
+.sidebar .instagram-gallery img {
+	display: block;
+	float: left;
+	padding: 0 2px 2px 0;
+	width: 33.33%;
+	box-sizing: border-box;
+}
+
+.sidebar .sidebar-gallery .gallery-wraper {
+	position: relative;
+	overflow: hidden;
+	width: 230px;
+	height: 172px;
+}
+
+.sidebar .sidebar-gallery .gallery-wraper .gallery-items img {
+	width: 100%;
+	height: 172px;
+	float: left;
+	display: block;
+	position: absolute;
+}
+
+.sidebar .sidebar-gallery .gallery-wraper .gallery-items {
+//	overflow: hidden;
+}
+
+.sidebar .sidebar-gallery .gallery-button {
+	height: 38px;
+	width: 38px;
+	top: 40%;
+	box-sizing: border-box;
+	z-index: 100;
+}
+
+.gallery-button:first-child {
+	left: 0;
+}
+
+.gallery-button:last-child {
+	right: 0;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------КНОПКИ SOCIAL MEDIA------------------------*/
+.social-media {
+	height: 40px;
+	display: block;
+	box-sizing: border-box;
+	float: right;
+}
+
+.social-media li,
+.share-button {
+	font-size: 14px;
+	display: block;
+	float: left;
+	border-right: solid 1px #eaeaeb;
+}
+
+.header .social-media li {
+	height: 50px;
+	width: 42px;
+}
+
+.main-content .social-media li,
+.sidebar .social-media li,
+.share-button {
+	border-top: solid 1px #eaeaeb;
+	border-bottom: solid 1px #eaeaeb;
+	width: 38px;
+	height: 38px;
+}
+
+.social-media li:first-child,
+.social-media li:first-child {
+	border-left: solid 1px #eaeaeb;
+}
+
+i.fa {
+	display: block;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.header i.fa {
+	height: 50px;
+	line-height: 50px;
+}
+
+.main-content i.fa,
+.sidebar i.fa {
+	height: 38px;
+	line-height: 38px;
+}
+
+i.fa-twitter {
+	color: #1da1f2;
+}
+
+i.fa-facebook {
+	color: #3b5998;
+}
+
+i.fa-google-plus {
+	color: #ea4335;
+}
+
+i.fa-rss {
+	color: #f99a38;
+}
+
+i.fa-tumblr {
+	color: #35465c;
+}
+
+i.fa-share-alt {
+	color: white;
+	background: #ffb79b;
+}
+
+.share-button {
+	margin-left: 5px;
+}
+
+.sidebar .social-media-box .share-button {
+	width: 29px;
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------ОСНОВНОЙ КОНТЕНТ-------------------------*/
+.main-content {
+	margin-right: 300px;
+}
+
+.main-content .recent-post {
+	padding: 0px;
+}
+
+.content {
+	padding: 27px 19px 28px 20px;
+}
+
+.main-content p {
+	margin-bottom: 30px;
+}
+
+.recent-post .post-img,
+.recent-post .post-img img {
+	width: 100%;
+}
+
+.recent-post .content {
+	overflow: hidden;
+}
+
+.post-img {
+	position: relative;
+}
+
+.column-half .post-img,
+.column-half .post-img img {
+	width: 100%;
+}
+
+.fa-camera {
+	display: block;
+	position: absolute;
+	color: white;
+	background: #ffb79b;
+	width: 48px;
+	height: 40px;
+	left: 0;
+	top: 0;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+}
+
+/*----------------------------------------КНОПКА CONTINUE READING-------------------------*/
+.continue-button {
+	background: #ffb79b;
+	color: white;
+	height: 40px;
+	padding: 0 20px;
+	text-align: center;
+	display: block;
+	vertical-align: middle;
+	line-height: 40px;
+	float: left;
+}
+
+.continue-button h4 {
+	line-height: 40px;
+}
+/*----------------------------------------------------------------------------------------*/
+
+.column-container {
+//	max-width: 1170px;
+	text-align: justify;
+	margin: 0 auto;
+}
+
+.column-half {
+	width: 49%;
+	display: inline-block;
+	padding: 0;
+}
+
+.column-half img,
+.column-third img {
+	width: 100%;
+}
+
+.column-third {
+	width: 32%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.column-container::after {
+	content: '';
+	width: 100%;
+	display: inline-block;
+}
+
+
+
+/*------------------------------------------------ КНОПКА READ MORE---------------------------- */
+.more-button {
+	background: #ffffff;
+	color: #424242;
+	height: 40px;
+	padding: 0 10px;
+	text-align: center;
+	display: block;
+	vertical-align: middle;
+	line-height: 40px;
+	border: 1px solid #eaeaeb;
+	box-sizing: border-box;
+	float: left;
+}
+
+.more-button h4 {
+	line-height: 40px;
+}
+/*----------------------------------------------------------------------------------------------*/
+
+.article img,
+.article .content {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.article img {
+	width: 30%;
+}
+
+.article {
+	padding: 0;
+	overflow: hidden;
+}
+
+.article .content {
+	box-sizing: border-box;
+  	padding: 5px 2%;
+ 	width: 70%;
+}
+
+.article .content .continue-button {
+	float: left;
+}
+
+.author {
+	color: #ffb79b;
+}
+
+.article .content .controls {
+	overflow: hidden;
+}
+
+/*------------------------------------------------ FOOTER------------------------------------------ */
+
+.footer {
+	background: #f7f7f7;
+	display: block;
+	height: 528px;
+	border-top: 2px solid #ffb79b;
+}
+
+.subscribe-input,
+.subscribe-button {
+	display: block;
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	margin-bottom: 10px;
+}
+
+.subscribe-input {
+	background: white;
+	padding-bottom: 27px;
+}
+
+.subscribe-button {
+	background: #ffb79b;
+	color: white;
+}
+
+.footer .up-button-container {
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+.footer .up-button-container .up-button {
+	height: 40px;
+	display: inline-block;
+	background: #ffb79b;
+	width: 40px;
+	vertical-align: middle;
+}
+
+.footer .up-button-container .up-button .fa-angle-up {
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+	line-height: 40px;
+}
+
