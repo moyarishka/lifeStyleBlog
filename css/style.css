@@ -364,6 +364,7 @@ a:hover i,
 	top: 0;
 	z-index: 1;
 	text-align: center;
+	opacity: 0.8;
 }
 
 .gallery-button {
