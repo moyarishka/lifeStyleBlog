@@ -1,7 +1,7 @@
 
 function createGallery($gallery) {
   var
-    GALLERY_SCROLL_DURATION = 1000,
+    GALLERY_SCROLL_DURATION = 500,
     $galleryControls = $gallery.find('.gallery-button'),
     $galleryItemsContainer = $gallery.find('.gallery-items'),
     $galleryItems = $galleryItemsContainer.find('.gallery-item'),
@@ -68,7 +68,7 @@ createGallery($('.small-gallery'));
 
 function createAccordeon($gallery) {
   var
-    GALLERY_ANIMATION_DURATION = 800,
+    GALLERY_ANIMATION_DURATION = 500,
     $galleryItems = $gallery.find('.gallery-item'),
     $galleryItemsImages = $galleryItems.find('img'),
     $galleryItemsOverlays = $galleryItems.find('.overlay'),
